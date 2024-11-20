@@ -72,5 +72,69 @@ footer a{
 }
 
 @media screen and (max-width: 768px){
-a
+    .room_img img{
+        width: 100%;
+        height: 72vh;
+        position: absolute;
+    }
+    .card{
+        flex-wrap: wrap;
+        padding-top: 65vh;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0px;
+    }
+    .card_1{
+        color: white;
+        width: 350px;
+        margin-bottom: 10px;
+        height: 200px;
+        border: 1px solid #FF7E05;
+        background-color: #FF7E05;
+        border-radius: 15px;
+    }
+    .card_1 h1{
+        font-size: 28px;
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .card_1 p{
+        font-size: 18px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+    }
+    .from{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 20px;
+        word-spacing: 0.5px;
+    }
+    .from p{
+        font-weight: 100;
+    }
+    .from a{
+        text-decoration: none;
+        color: black;
+        font-weight: 100;
+        margin-left: 5px;
+        border-bottom: 2px solid #FF7E05;
+    }
+    .from a:hover{
+        border-bottom: 2px solid #1b7bf1;
+    }
+    footer{
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-size: 15px;
+    }
+    footer a{
+        color: #92CCE3;
+    }
 }
