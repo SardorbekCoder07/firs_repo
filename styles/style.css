@@ -15,8 +15,8 @@
   }
   
   .image-section img {
-    max-width: 100%;
-    height: auto;
+    max-width: 250vh;
+    height: 90vh;
   }
   
   .info-section {
@@ -27,14 +27,24 @@
   }
   
   .info-box {
+    text-align: left;
     background-color: #ff7e00;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
     border-radius: 10px;
-    width: 250px;
+    width: 330px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 20vh;
   }
+  .image-credit p,a {
+color: black;
+font-weight: 100;
+
+}
+.image-credit{
+    padding: 40px;
+}
   
   .info-box h3 {
     font-size: 18px;
@@ -44,5 +54,16 @@
   .info-box p {
     font-size: 14px;
     line-height: 1.5;
+  }
+  .footer{
+    background-color: #333333;
+    /* color: white; */
+    text-align: center;
+    padding: 20px;
+    /* border-radius: 10px; */
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 20vh;
+    
   }
   
