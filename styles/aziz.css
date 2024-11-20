@@ -39,5 +39,38 @@
     margin-bottom: 10px;
 }
 .from{
-    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    word-spacing: 0.5px;
+}
+.from p{
+    font-weight: 100;
+}
+.from a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    margin-left: 5px;
+    border-bottom: 2px solid #FF7E05;
+}
+.from a:hover{
+    border-bottom: 2px solid #1b7bf1;
+}
+footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 15px;
+}
+footer a{
+    color: #92CCE3;
+}
+
+@media screen and (max-width: 768px){
+
 }
