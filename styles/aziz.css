@@ -13,13 +13,15 @@
     position: absolute;
 }
 .card{
+    padding-top: 78vh;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 .card_1{
-    width: 170px;
+    width: 450px;
     height: 170px;
     border: 1px solid #FF7E05;
     background-color: #FF7E05;
+    border-radius: 15px;
 }
