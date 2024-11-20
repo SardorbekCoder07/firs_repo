@@ -10,15 +10,16 @@
 .room_img img{
     width: 100%;
     height: 95vh;
-    position: relative;
+    position: absolute;
 }
 .card{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 .card_1{
-    width: 70px;
-    height: 70px;
+    width: 170px;
+    height: 170px;
     border: 1px solid #FF7E05;
     background-color: #FF7E05;
 }
