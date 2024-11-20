@@ -15,7 +15,7 @@
   }
   
   .image-section img {
-    max-width: 250vh;
+    width: 216vh;
     height: 90vh;
   }
   
@@ -59,7 +59,8 @@ font-weight: 100;
     background-color: #333333;
     /* color: white; */
     text-align: center;
-    padding: 20px;
+    color: white;
+    padding-top: 50px;
     /* border-radius: 10px; */
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
