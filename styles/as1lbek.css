@@ -8,11 +8,50 @@
 a{
     text-decoration: none;
 }
+ul li{
+    list-style: none;
+}
 nav{
+    display: flex;
     padding-top: 1rem;
+    padding-left: 10px;
     background-color: #f2f2f2;
     height: 4.4rem;
-
+}
+.flex{
+    display: flex;
+    padding-left: 35%;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.flex_2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.flex_3{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.flex_4{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.flex_5{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.close{
+    padding-top: 0.4rem;
+    padding-left: 35%;
+    font-size: 0.5rem;
 }
 .container{
     display: flex;
