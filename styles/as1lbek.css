@@ -5,13 +5,22 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+a{
+    text-decoration: none;
+}
+nav{
+    padding-top: 1rem;
+    background-color: #f2f2f2;
+    height: 4.4rem;
+
+}
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .nav_img{
-    height: 100.8vh;
+    height: 100.7vh;
 }
 .card{
     display: flex;
@@ -20,14 +29,15 @@
     position: relative;
     justify-content: space-between;
     padding: 0 120px;
+    margin-top: -148px;
 }
 .card_1{
-    
     color: white;
-    width: 350px;
-    height: 190px;
+    width: 365px;
+    height: 200px;
     background-color: #FF7E05;
     border-radius: 20px;
+    margin-right: 1.5rem;
 }
 .img_3{
     width: auto;
@@ -36,14 +46,21 @@
 h5{
     font-size: 1.25rem;
     margin-left: 35px;
-    padding-top: 1rem;
+    padding-top: 40px;
 }
 p{
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 1rem;
     padding-left: 35px;
     line-height: 1.8;
     font-weight: 300;
+}
+.esc{
+    width: auto;
+    height: 10rem;
+    padding-top: 3rem;
+    background-color: #FFFFFF;
+    padding-left: 34rem;
 }
 footer{
     color: #FFFFFF;
@@ -51,7 +68,17 @@ footer{
     height: 100px;
     padding-top: 40px;
     padding-left: 34rem;
+    font-size: 0.8rem;
 }
 .foot a{
     color: #adcce9;
+}
+.free{
+    color: black;
+}
+.port{
+    color: #adcce9;
+}
+a:hover{
+    color: rgb(106, 222, 248);
 }
