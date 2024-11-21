@@ -1,5 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_img{
+    height: 100.8vh;
+}
+.card{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.card_1{
+    
+    color: white;
+    width: 350px;
+    height: 190px;
+    background-color: #FF7E05;
+    border-radius: 20px;
+}
+.img_3{
+    width: auto;
+    height: 1.1rem;
+}
+h5{
+    font-size: 1.25rem;
+    margin-left: 35px;
+    padding-top: 1rem;
+}
+p{
+    padding-top: 20px;
+    font-size: 1rem;
+    padding-left: 35px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+footer{
+    color: #FFFFFF;
+    background-color: #333333;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 34rem;
+}
+.foot a{
+    color: #adcce9;
 }
