@@ -154,6 +154,18 @@ a:hover{
         padding-left: 54%;
         font-size: 0.5rem;
     }
+    .nav_img{
+        height: 24.5vh;
+    }
+    .card{
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+        padding: 0 5px;
+        margin-top: -25px;
+    }
 }
 
 @media(min-width: 393px) and (max-width: 851px){
