@@ -48,6 +48,11 @@ nav{
     padding-right: 10px;
     font-size: 1rem;
 }
+.flex_6{
+    display: flex;
+    padding-left: 10px;
+    font-size: 1rem;
+}
 .close{
     padding-top: 0.4rem;
     padding-left: 35%;
@@ -121,4 +126,48 @@ footer{
 a:hover{
     color: rgb(106, 222, 248);
 }
-@media(max-width: )
+@media(min-width: 360px) and (max-width: 800px){
+    .flex{
+        display: none;
+    }
+    .flex_2{
+        display: none;
+    }
+    .flex_3{
+        display: none;
+    }
+    .flex_4{
+        display: none;
+    }
+    .flex_5{
+        display: none;
+    }
+    .close{
+        padding-top: 0.4rem;
+        padding-left: 55%;
+        font-size: 0.5rem;
+    }
+}
+
+@media(min-width: 393px) and (max-width: 851px){
+    .flex{
+        display: none;
+    }
+    .flex_2{
+        display: none;
+    }
+    .flex_3{
+        display: none;
+    }
+    .flex_4{
+        display: none;
+    }
+    .flex_5{
+        display: none;
+    }
+    .close{
+        padding-top: 0.4rem;
+        padding-left: 58%;
+        font-size: 0.5rem;
+    }
+}
