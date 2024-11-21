@@ -128,11 +128,11 @@ a:hover{
     color: rgb(106, 222, 248);
 }
 @media(min-width: 360px) and (max-width: 800px){
-    .flex_5{
+    .flex_6{
         display: flex;
+        padding-bottom: 1rem;
         padding-left: 10px;
-        padding-right: 10px;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .flex{
         display: none;
@@ -150,8 +150,8 @@ a:hover{
         display: none;
     }
     .close{
-        padding-bottom: 0.8rem;
-        padding-left: 50%;
+        padding-top: 0.7rem;
+        padding-left: 54%;
         font-size: 0.5rem;
     }
 }
