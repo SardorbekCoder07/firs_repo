@@ -50,8 +50,9 @@ nav{
 }
 .flex_6{
     display: flex;
+    padding-bottom: 0.8rem;
     padding-left: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .close{
     padding-top: 0.4rem;
@@ -127,6 +128,12 @@ a:hover{
     color: rgb(106, 222, 248);
 }
 @media(min-width: 360px) and (max-width: 800px){
+    .flex_5{
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+    }
     .flex{
         display: none;
     }
@@ -143,8 +150,8 @@ a:hover{
         display: none;
     }
     .close{
-        padding-top: 0.4rem;
-        padding-left: 55%;
+        padding-bottom: 0.8rem;
+        padding-left: 50%;
         font-size: 0.5rem;
     }
 }
